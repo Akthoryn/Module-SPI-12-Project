@@ -6,12 +6,12 @@ int main(int argc, char* argv[])
   Student student("Léo",false);
 
   if( student.name() != "Léo" ){
-      return EXIT_FAILURE;
+      return -1;
   }
 
   if( student.present() != false ){
-      return EXIT_FAILURE;
+      return -1;
   }
 
-  return EXIT_SUCCESS;
+  return 0;
 }
