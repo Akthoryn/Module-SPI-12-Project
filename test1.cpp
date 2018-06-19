@@ -1,3 +1,9 @@
+/**
+* @file test1.cpp
+* @author WAGNER Nicolas & FILLIERES-RIVEAU Gautier
+*/
+
+
 #include <iostream>
 #include "student.h"
 
