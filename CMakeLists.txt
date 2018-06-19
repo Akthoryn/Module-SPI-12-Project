@@ -19,3 +19,7 @@ TARGET_LINK_LIBRARIES( ${ProjectName}_test1 ${ProjectName}_LIB )
 
 ADD_EXECUTABLE( ${ProjectName}_test2 ${test2_src} )
 TARGET_LINK_LIBRARIES( ${ProjectName}_test2 ${ProjectName}_LIB )
+
+ENABLE_TESTING()
+ADD_TEST( First_test ${ProjectName}_test1 )
+ADD_TEST( Second_test ${ProjectName}_test2 )
